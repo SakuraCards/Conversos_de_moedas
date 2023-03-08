@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+    --cor0: #F1F2EE;
+    --cor1: #E59500;
+    --cor2: #679436;
+    --cor3: #0c6a6f;
+    --cor4: #71c7f8;
+    --cor5: #000000;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Concert One', cursive;
+    
+}    
+
+* {
+    margin: 10px;
+    padding: px;
+
+}
+
+body {
+    background-color: var(--cor0);
+    text-align: center;
+}
+
+.Texto_Conversor_moedas {
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+    font-size: 100px;
+    text-shadow: 2px 2px #0000008e;
+    border: 10px solid var(--cor3);
+    background-color: var(--cor2);   
+}
+
+.Principal {
+    width: 40vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+label {
+    font-size: 25px;
+    font-family: var(--fonte-destaque);
+}
+
+.btn {
+    width: 200px;
+    background-color: var(--cor0);
+    font-family: var(--fonte-destaque);
+    color: #000000c8;
+}
+
+#finalAmount {
+    font-family:var(--fonte-destaque);  
+}
+
+#finalAmount h2 {
+    font-size: 30px;
+}
+
+.row {
+    font-family: var(--fonte-destaque);
+}
+
